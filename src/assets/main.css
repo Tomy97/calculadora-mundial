@@ -1,0 +1,21 @@
+@import url('../assets/fonts.css');
+
+:root {
+  --color-primary: #ff6664;
+  --color-secondary: #fa8985;
+  --color-tertiary: #f24242;
+  --color-white: #fff;
+  --color-gray: #6f6b6a;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: suecaslabheavy;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
